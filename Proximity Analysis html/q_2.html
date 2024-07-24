@@ -1,0 +1,1374 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a00b78ff40016379691d809cf131b37e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_a00b78ff40016379691d809cf131b37e" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_a00b78ff40016379691d809cf131b37e = L.map(
+                "map_a00b78ff40016379691d809cf131b37e",
+                {
+                    center: [40.7, -74.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_3c7b99f5a07abce7f715c828998557b6 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_3c7b99f5a07abce7f715c828998557b6.addTo(map_a00b78ff40016379691d809cf131b37e);
+        
+    
+            var marker_cc31a794ba8dee20824c3720ece870b8 = L.marker(
+                [40.84348984739682, -73.9110103877187],
+                {}
+            ).addTo(map_a00b78ff40016379691d809cf131b37e);
+        
+    
+        var popup_6b30a6ad911e1053bc0473b717aba906 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5a4daa0dcd963cb311661a75816819c5 = $(`<div id="html_5a4daa0dcd963cb311661a75816819c5" style="width: 100.0%; height: 100.0%;">BRONX-LEBANON HOSPITAL CENTER - CONCOURSE DIVISION</div>`)[0];
+                popup_6b30a6ad911e1053bc0473b717aba906.setContent(html_5a4daa0dcd963cb311661a75816819c5);
+            
+        
+
+        marker_cc31a794ba8dee20824c3720ece870b8.bindPopup(popup_6b30a6ad911e1053bc0473b717aba906)
+        ;
+
+        
+    
+    
+            var marker_937aa086ddee038fba39ef64b08884ad = L.marker(
+                [40.83142876488179, -73.90317782803042],
+                {}
+            ).addTo(map_a00b78ff40016379691d809cf131b37e);
+        
+    
+        var popup_bd1a843017ffc07b8a8a3ffe29ca265b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5a729d760c9cf1ebe3e38e7996dbdb3e = $(`<div id="html_5a729d760c9cf1ebe3e38e7996dbdb3e" style="width: 100.0%; height: 100.0%;">BRONX-LEBANON HOSPITAL CENTER - FULTON DIVISION</div>`)[0];
+                popup_bd1a843017ffc07b8a8a3ffe29ca265b.setContent(html_5a729d760c9cf1ebe3e38e7996dbdb3e);
+            
+        
+
+        marker_937aa086ddee038fba39ef64b08884ad.bindPopup(popup_bd1a843017ffc07b8a8a3ffe29ca265b)
+        ;
+
+        
+    
+    
+            var marker_621fdfacd9ce87ab75a116db93882365 = L.marker(
+                [40.848059524296055, -73.84365561299151],
+                {}
+            ).addTo(map_a00b78ff40016379691d809cf131b37e);
+        
+    
+        var popup_d81fb78b1e6e246f0fd70783f36824ae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_39a7dafba6543a3bd15f42bd6c10af9c = $(`<div id="html_39a7dafba6543a3bd15f42bd6c10af9c" style="width: 100.0%; height: 100.0%;">CALVARY HOSPITAL INC</div>`)[0];
+                popup_d81fb78b1e6e246f0fd70783f36824ae.setContent(html_39a7dafba6543a3bd15f42bd6c10af9c);
+            
+        
+
+        marker_621fdfacd9ce87ab75a116db93882365.bindPopup(popup_d81fb78b1e6e246f0fd70783f36824ae)
+        ;
+
+        
+    
+    
+            var marker_6ecaf0819cd2e27c5b6c79d25e0978c5 = L.marker(
+                [40.85568655396233, -73.84531138280727],
+                {}
+            ).addTo(map_a00b78ff40016379691d809cf131b37e);
+        
+    
+        var popup_e5299142a8d833ab236d86c0061a8bbd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d93eea67da60d00dd91f9aaeec39e18e = $(`<div id="html_d93eea67da60d00dd91f9aaeec39e18e" style="width: 100.0%; height: 100.0%;">JACOBI MEDICAL CENTER</div>`)[0];
+                popup_e5299142a8d833ab236d86c0061a8bbd.setContent(html_d93eea67da60d00dd91f9aaeec39e18e);
+            
+        
+
+        marker_6ecaf0819cd2e27c5b6c79d25e0978c5.bindPopup(popup_e5299142a8d833ab236d86c0061a8bbd)
+        ;
+
+        
+    
+    
+            var marker_f1097eb18986c6d3b1f945bb8990b28b = L.marker(
+                [40.81675769880821, -73.92447845294292],
+                {}
+            ).addTo(map_a00b78ff40016379691d809cf131b37e);
+        
+    
+        var popup_e2128a9f04bbc30dd4d8be9bb8247cb5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a0a7dc8fc776c848d0c760fcb38103dc = $(`<div id="html_a0a7dc8fc776c848d0c760fcb38103dc" style="width: 100.0%; height: 100.0%;">LINCOLN MEDICAL & MENTAL HEALTH CENTER</div>`)[0];
+                popup_e2128a9f04bbc30dd4d8be9bb8247cb5.setContent(html_a0a7dc8fc776c848d0c760fcb38103dc);
+            
+        
+
+        marker_f1097eb18986c6d3b1f945bb8990b28b.bindPopup(popup_e2128a9f04bbc30dd4d8be9bb8247cb5)
+        ;
+
+        
+    
+    
+            var marker_0d1e574b3b8f076150802eacd657548a = L.marker(
+                [40.8498496292291, -73.84610932136209],
+                {}
+            ).addTo(map_a00b78ff40016379691d809cf131b37e);
+        
+    
+        var popup_1a56b723694f784b6e611b52d2687334 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5de07b2c9de42572fba8a6696aa48255 = $(`<div id="html_5de07b2c9de42572fba8a6696aa48255" style="width: 100.0%; height: 100.0%;">MONTEFIORE MED CENTER - JACK D WEILER HOSP OF A EINSTEIN COLLEGE DIV</div>`)[0];
+                popup_1a56b723694f784b6e611b52d2687334.setContent(html_5de07b2c9de42572fba8a6696aa48255);
+            
+        
+
+        marker_0d1e574b3b8f076150802eacd657548a.bindPopup(popup_1a56b723694f784b6e611b52d2687334)
+        ;
+
+        
+    
+    
+            var marker_d2cd4d59d6be1dfc17aee2c9d127cbab = L.marker(
+                [40.880828056610234, -73.87994733604533],
+                {}
+            ).addTo(map_a00b78ff40016379691d809cf131b37e);
+        
+    
+        var popup_bc2f16f9157691ad3b804291e22a931f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d16d1b51d9db348ee5f767b7ac0effbb = $(`<div id="html_d16d1b51d9db348ee5f767b7ac0effbb" style="width: 100.0%; height: 100.0%;">MONTEFIORE MEDICAL CENTER - HENRY & LUCY MOSES DIV</div>`)[0];
+                popup_bc2f16f9157691ad3b804291e22a931f.setContent(html_d16d1b51d9db348ee5f767b7ac0effbb);
+            
+        
+
+        marker_d2cd4d59d6be1dfc17aee2c9d127cbab.bindPopup(popup_bc2f16f9157691ad3b804291e22a931f)
+        ;
+
+        
+    
+    
+            var marker_506ab8bb466b2bf04824fe34a367cffd = L.marker(
+                [40.840707344128425, -73.8484434844751],
+                {}
+            ).addTo(map_a00b78ff40016379691d809cf131b37e);
+        
+    
+        var popup_940318c145bf3d2ac66383517cf8584a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d7e82b5c09e248aa7deac8be86f9f4c5 = $(`<div id="html_d7e82b5c09e248aa7deac8be86f9f4c5" style="width: 100.0%; height: 100.0%;">MONTEFIORE MEDICAL CENTER - MONTEFIORE WESTCHESTER SQUARE</div>`)[0];
+                popup_940318c145bf3d2ac66383517cf8584a.setContent(html_d7e82b5c09e248aa7deac8be86f9f4c5);
+            
+        
+
+        marker_506ab8bb466b2bf04824fe34a367cffd.bindPopup(popup_940318c145bf3d2ac66383517cf8584a)
+        ;
+
+        
+    
+    
+            var marker_7bac84176ea068e92505ea0fc43db9d5 = L.marker(
+                [40.893517718763405, -73.86122475983386],
+                {}
+            ).addTo(map_a00b78ff40016379691d809cf131b37e);
+        
+    
+        var popup_0db58d6aafbb393feea65d46578df5b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f7828a50a6599422985478dc644adfb6 = $(`<div id="html_f7828a50a6599422985478dc644adfb6" style="width: 100.0%; height: 100.0%;">MONTEFIORE MEDICAL CENTER-WAKEFIELD HOSPITAL</div>`)[0];
+                popup_0db58d6aafbb393feea65d46578df5b2.setContent(html_f7828a50a6599422985478dc644adfb6);
+            
+        
+
+        marker_7bac84176ea068e92505ea0fc43db9d5.bindPopup(popup_0db58d6aafbb393feea65d46578df5b2)
+        ;
+
+        
+    
+    
+            var marker_58476e85d3c3927976dee0dc91a49a20 = L.marker(
+                [40.88048615007653, -73.88108707078342],
+                {}
+            ).addTo(map_a00b78ff40016379691d809cf131b37e);
+        
+    
+        var popup_a10235f06b17ed35af7a74337fdcb20c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7d377fc53a25487ba23d02fc0c528d04 = $(`<div id="html_7d377fc53a25487ba23d02fc0c528d04" style="width: 100.0%; height: 100.0%;">NORTH CENTRAL BRONX HOSPITAL</div>`)[0];
+                popup_a10235f06b17ed35af7a74337fdcb20c.setContent(html_7d377fc53a25487ba23d02fc0c528d04);
+            
+        
+
+        marker_58476e85d3c3927976dee0dc91a49a20.bindPopup(popup_a10235f06b17ed35af7a74337fdcb20c)
+        ;
+
+        
+    
+    
+            var marker_719c94815ad61332d51ebdfe194a907e = L.marker(
+                [40.85337772916848, -73.89037489167946],
+                {}
+            ).addTo(map_a00b78ff40016379691d809cf131b37e);
+        
+    
+        var popup_d641d196d5b70883345c9223e6610344 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1c268fa3ed8b54978bc0e0856f9e8653 = $(`<div id="html_1c268fa3ed8b54978bc0e0856f9e8653" style="width: 100.0%; height: 100.0%;">SBH HEALTH SYSTEM</div>`)[0];
+                popup_d641d196d5b70883345c9223e6610344.setContent(html_1c268fa3ed8b54978bc0e0856f9e8653);
+            
+        
+
+        marker_719c94815ad61332d51ebdfe194a907e.bindPopup(popup_d641d196d5b70883345c9223e6610344)
+        ;
+
+        
+    
+    
+            var marker_abe910bcdea891d0dfdd3a2f390141e6 = L.marker(
+                [40.65491846463238, -73.9123791741448],
+                {}
+            ).addTo(map_a00b78ff40016379691d809cf131b37e);
+        
+    
+        var popup_3a40ac35c52ea227d86a22c4a1640487 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fe48af7aa1e565aab18404897c483a8e = $(`<div id="html_fe48af7aa1e565aab18404897c483a8e" style="width: 100.0%; height: 100.0%;">BROOKDALE HOSPITAL MEDICAL CENTER</div>`)[0];
+                popup_3a40ac35c52ea227d86a22c4a1640487.setContent(html_fe48af7aa1e565aab18404897c483a8e);
+            
+        
+
+        marker_abe910bcdea891d0dfdd3a2f390141e6.bindPopup(popup_3a40ac35c52ea227d86a22c4a1640487)
+        ;
+
+        
+    
+    
+            var marker_b6017ee3c93ae659bac5656116a00c95 = L.marker(
+                [40.69057965481238, -73.97793163176702],
+                {}
+            ).addTo(map_a00b78ff40016379691d809cf131b37e);
+        
+    
+        var popup_794d26a5b36cd5080cc28971dc4d8edd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_535d260c8437b74368e9f4a750001838 = $(`<div id="html_535d260c8437b74368e9f4a750001838" style="width: 100.0%; height: 100.0%;">BROOKLYN HOSPITAL CENTER - DOWNTOWN CAMPUS</div>`)[0];
+                popup_794d26a5b36cd5080cc28971dc4d8edd.setContent(html_535d260c8437b74368e9f4a750001838);
+            
+        
+
+        marker_b6017ee3c93ae659bac5656116a00c95.bindPopup(popup_794d26a5b36cd5080cc28971dc4d8edd)
+        ;
+
+        
+    
+    
+            var marker_8331c418c57ba177e753c051e41007cb = L.marker(
+                [40.585645970507926, -73.96486850038322],
+                {}
+            ).addTo(map_a00b78ff40016379691d809cf131b37e);
+        
+    
+        var popup_bc6856c655c9b9c7f509622855fb38fa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0650ffc6050cac4261239a0831e6e145 = $(`<div id="html_0650ffc6050cac4261239a0831e6e145" style="width: 100.0%; height: 100.0%;">CONEY ISLAND HOSPITAL</div>`)[0];
+                popup_bc6856c655c9b9c7f509622855fb38fa.setContent(html_0650ffc6050cac4261239a0831e6e145);
+            
+        
+
+        marker_8331c418c57ba177e753c051e41007cb.bindPopup(popup_bc6856c655c9b9c7f509622855fb38fa)
+        ;
+
+        
+    
+    
+            var marker_3ab215c9b8235c5e0ac246944885e6e4 = L.marker(
+                [40.67843021053433, -73.93759250176674],
+                {}
+            ).addTo(map_a00b78ff40016379691d809cf131b37e);
+        
+    
+        var popup_67f04ad51a58f9f6de5e3e79ad075ff9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_498f35cd6771c8c4f31f0efd4de004af = $(`<div id="html_498f35cd6771c8c4f31f0efd4de004af" style="width: 100.0%; height: 100.0%;">INTERFAITH MEDICAL CENTER</div>`)[0];
+                popup_67f04ad51a58f9f6de5e3e79ad075ff9.setContent(html_498f35cd6771c8c4f31f0efd4de004af);
+            
+        
+
+        marker_3ab215c9b8235c5e0ac246944885e6e4.bindPopup(popup_67f04ad51a58f9f6de5e3e79ad075ff9)
+        ;
+
+        
+    
+    
+            var marker_1d3f8d4dfbb5d66210fb91e090f0327a = L.marker(
+                [40.656686551383224, -73.94383353874257],
+                {}
+            ).addTo(map_a00b78ff40016379691d809cf131b37e);
+        
+    
+        var popup_bdaf6e521835576f8aafbebc4a4fe01b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e57f5650449442891dd63fe383886c5b = $(`<div id="html_e57f5650449442891dd63fe383886c5b" style="width: 100.0%; height: 100.0%;">KINGS COUNTY HOSPITAL CENTER</div>`)[0];
+                popup_bdaf6e521835576f8aafbebc4a4fe01b.setContent(html_e57f5650449442891dd63fe383886c5b);
+            
+        
+
+        marker_1d3f8d4dfbb5d66210fb91e090f0327a.bindPopup(popup_bdaf6e521835576f8aafbebc4a4fe01b)
+        ;
+
+        
+    
+    
+            var marker_22ca7e7c7c78ff5629c4106f85e8b441 = L.marker(
+                [40.659574215904684, -73.93380403563673],
+                {}
+            ).addTo(map_a00b78ff40016379691d809cf131b37e);
+        
+    
+        var popup_ded54ddd46c575709080fc94988466ee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_976c27a8b24d39d902f8c84d6a1d3153 = $(`<div id="html_976c27a8b24d39d902f8c84d6a1d3153" style="width: 100.0%; height: 100.0%;">KINGSBROOK JEWISH MEDICAL CENTER</div>`)[0];
+                popup_ded54ddd46c575709080fc94988466ee.setContent(html_976c27a8b24d39d902f8c84d6a1d3153);
+            
+        
+
+        marker_22ca7e7c7c78ff5629c4106f85e8b441.bindPopup(popup_ded54ddd46c575709080fc94988466ee)
+        ;
+
+        
+    
+    
+            var marker_8cf8f8a8c633f16577d35f77eae1e923 = L.marker(
+                [40.64667161679278, -74.02122142087823],
+                {}
+            ).addTo(map_a00b78ff40016379691d809cf131b37e);
+        
+    
+        var popup_8af7aeee3f9654814f709ef967aca3ac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ceed40ad01f955df328f99346945bb93 = $(`<div id="html_ceed40ad01f955df328f99346945bb93" style="width: 100.0%; height: 100.0%;">LUTHERAN MEDICAL CENTER</div>`)[0];
+                popup_8af7aeee3f9654814f709ef967aca3ac.setContent(html_ceed40ad01f955df328f99346945bb93);
+            
+        
+
+        marker_8cf8f8a8c633f16577d35f77eae1e923.bindPopup(popup_8af7aeee3f9654814f709ef967aca3ac)
+        ;
+
+        
+    
+    
+            var marker_014f3b9e2a919ed9e23d24d6343f663f = L.marker(
+                [40.63950693380259, -73.99870645745953],
+                {}
+            ).addTo(map_a00b78ff40016379691d809cf131b37e);
+        
+    
+        var popup_5c020364d0a882c2255e397d3d587800 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_350a31969350ee233a7388af9b0d24e9 = $(`<div id="html_350a31969350ee233a7388af9b0d24e9" style="width: 100.0%; height: 100.0%;">MAIMONIDES MEDICAL CENTER</div>`)[0];
+                popup_5c020364d0a882c2255e397d3d587800.setContent(html_350a31969350ee233a7388af9b0d24e9);
+            
+        
+
+        marker_014f3b9e2a919ed9e23d24d6343f663f.bindPopup(popup_5c020364d0a882c2255e397d3d587800)
+        ;
+
+        
+    
+    
+            var marker_39232471c67c4de0b940b7616cb1c3a3 = L.marker(
+                [40.61873121403783, -73.94297936911907],
+                {}
+            ).addTo(map_a00b78ff40016379691d809cf131b37e);
+        
+    
+        var popup_6bf0fc2133483bea79e949c72b9fcc74 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ef47deb50336aa0086d529e2a03a3a09 = $(`<div id="html_ef47deb50336aa0086d529e2a03a3a09" style="width: 100.0%; height: 100.0%;">MOUNT SINAI BETH ISRAEL BROOKLYN</div>`)[0];
+                popup_6bf0fc2133483bea79e949c72b9fcc74.setContent(html_ef47deb50336aa0086d529e2a03a3a09);
+            
+        
+
+        marker_39232471c67c4de0b940b7616cb1c3a3.bindPopup(popup_6bf0fc2133483bea79e949c72b9fcc74)
+        ;
+
+        
+    
+    
+            var marker_3866ae6ff568c355ccfb5599939da0ae = L.marker(
+                [40.61391396173966, -73.9484978425456],
+                {}
+            ).addTo(map_a00b78ff40016379691d809cf131b37e);
+        
+    
+        var popup_83d05769666e6828d1a82f6e6d9010b5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_467ba855e6dec9bd13bbf4790f6f3e94 = $(`<div id="html_467ba855e6dec9bd13bbf4790f6f3e94" style="width: 100.0%; height: 100.0%;">NEW YORK COMMUNITY HOSPITAL OF BROOKLYN, INC</div>`)[0];
+                popup_83d05769666e6828d1a82f6e6d9010b5.setContent(html_467ba855e6dec9bd13bbf4790f6f3e94);
+            
+        
+
+        marker_3866ae6ff568c355ccfb5599939da0ae.bindPopup(popup_83d05769666e6828d1a82f6e6d9010b5)
+        ;
+
+        
+    
+    
+            var marker_7c72ce289cb402b5001d231f3d3bb7a6 = L.marker(
+                [40.66782845166711, -73.97913592381343],
+                {}
+            ).addTo(map_a00b78ff40016379691d809cf131b37e);
+        
+    
+        var popup_afd8a58d1bf13a060548f7f5b9cdc489 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5744ef63c29c190800c5fb83d47eeb2c = $(`<div id="html_5744ef63c29c190800c5fb83d47eeb2c" style="width: 100.0%; height: 100.0%;">NEW YORK METHODIST HOSPITAL</div>`)[0];
+                popup_afd8a58d1bf13a060548f7f5b9cdc489.setContent(html_5744ef63c29c190800c5fb83d47eeb2c);
+            
+        
+
+        marker_7c72ce289cb402b5001d231f3d3bb7a6.bindPopup(popup_afd8a58d1bf13a060548f7f5b9cdc489)
+        ;
+
+        
+    
+    
+            var marker_47816870533f1bda44a5e919fc41bda3 = L.marker(
+                [40.690002595723904, -73.99743259117099],
+                {}
+            ).addTo(map_a00b78ff40016379691d809cf131b37e);
+        
+    
+        var popup_0f78034fe86396574f28dd4f14a71ceb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ac282b2e1c965d21c3d1b6286fac57d9 = $(`<div id="html_ac282b2e1c965d21c3d1b6286fac57d9" style="width: 100.0%; height: 100.0%;">NYULMC - COBBLE HILL</div>`)[0];
+                popup_0f78034fe86396574f28dd4f14a71ceb.setContent(html_ac282b2e1c965d21c3d1b6286fac57d9);
+            
+        
+
+        marker_47816870533f1bda44a5e919fc41bda3.bindPopup(popup_0f78034fe86396574f28dd4f14a71ceb)
+        ;
+
+        
+    
+    
+            var marker_f96ee9ce8b723c3956c789cd3dd2e686 = L.marker(
+                [40.69043352049397, -73.99725588378374],
+                {}
+            ).addTo(map_a00b78ff40016379691d809cf131b37e);
+        
+    
+        var popup_c41fcccd6eea0db15df99eaa618e4486 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5f7d07041b406616ab8043d94849973a = $(`<div id="html_5f7d07041b406616ab8043d94849973a" style="width: 100.0%; height: 100.0%;">SUNY DOWNSTATE MEDICAL CENTER AT LICH</div>`)[0];
+                popup_c41fcccd6eea0db15df99eaa618e4486.setContent(html_5f7d07041b406616ab8043d94849973a);
+            
+        
+
+        marker_f96ee9ce8b723c3956c789cd3dd2e686.bindPopup(popup_c41fcccd6eea0db15df99eaa618e4486)
+        ;
+
+        
+    
+    
+            var marker_5d5484f20835b120a74f14310ede032e = L.marker(
+                [40.655089742874665, -73.94518999648369],
+                {}
+            ).addTo(map_a00b78ff40016379691d809cf131b37e);
+        
+    
+        var popup_4e39fba8471e90a8e22828f7f5dc6b53 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8e5bf6e3e8933f3c2116ea965d351d9f = $(`<div id="html_8e5bf6e3e8933f3c2116ea965d351d9f" style="width: 100.0%; height: 100.0%;">UNIVERSITY HOSPITAL OF BROOKLYN</div>`)[0];
+                popup_4e39fba8471e90a8e22828f7f5dc6b53.setContent(html_8e5bf6e3e8933f3c2116ea965d351d9f);
+            
+        
+
+        marker_5d5484f20835b120a74f14310ede032e.bindPopup(popup_4e39fba8471e90a8e22828f7f5dc6b53)
+        ;
+
+        
+    
+    
+            var marker_01859dc5c619398d8155e7f40cd3aadf = L.marker(
+                [40.699488036608805, -73.9427660419906],
+                {}
+            ).addTo(map_a00b78ff40016379691d809cf131b37e);
+        
+    
+        var popup_5a6dc13197b138e8759da3c0f1e8700b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_57cc4cb49a176caee217c7e68eff1c89 = $(`<div id="html_57cc4cb49a176caee217c7e68eff1c89" style="width: 100.0%; height: 100.0%;">WOODHULL MEDICAL & MENTAL HEALTH CENTER</div>`)[0];
+                popup_5a6dc13197b138e8759da3c0f1e8700b.setContent(html_57cc4cb49a176caee217c7e68eff1c89);
+            
+        
+
+        marker_01859dc5c619398d8155e7f40cd3aadf.bindPopup(popup_5a6dc13197b138e8759da3c0f1e8700b)
+        ;
+
+        
+    
+    
+            var marker_c910629b53180feaf3b2488c2aca31d3 = L.marker(
+                [40.70420197722319, -73.91756211820649],
+                {}
+            ).addTo(map_a00b78ff40016379691d809cf131b37e);
+        
+    
+        var popup_4bc1825859a81d1462aa87842487de0a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fdb52be3a8e6f54398710a0984ddcfb3 = $(`<div id="html_fdb52be3a8e6f54398710a0984ddcfb3" style="width: 100.0%; height: 100.0%;">WYCKOFF HEIGHTS MEDICAL CENTER</div>`)[0];
+                popup_4bc1825859a81d1462aa87842487de0a.setContent(html_fdb52be3a8e6f54398710a0984ddcfb3);
+            
+        
+
+        marker_c910629b53180feaf3b2488c2aca31d3.bindPopup(popup_4bc1825859a81d1462aa87842487de0a)
+        ;
+
+        
+    
+    
+            var marker_f3769e5ef4888aa43556d92041a5d5ed = L.marker(
+                [40.73874694182294, -73.9753427823785],
+                {}
+            ).addTo(map_a00b78ff40016379691d809cf131b37e);
+        
+    
+        var popup_851a34caad52b164d3844d7fa4da4fd0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bf4e013757af225854a5bbbf39ad348e = $(`<div id="html_bf4e013757af225854a5bbbf39ad348e" style="width: 100.0%; height: 100.0%;">BELLEVUE HOSPITAL CENTER</div>`)[0];
+                popup_851a34caad52b164d3844d7fa4da4fd0.setContent(html_bf4e013757af225854a5bbbf39ad348e);
+            
+        
+
+        marker_f3769e5ef4888aa43556d92041a5d5ed.bindPopup(popup_851a34caad52b164d3844d7fa4da4fd0)
+        ;
+
+        
+    
+    
+            var marker_ecdb9eae036365ba1571ba422dd179fd = L.marker(
+                [40.75760723115322, -73.95260272039623],
+                {}
+            ).addTo(map_a00b78ff40016379691d809cf131b37e);
+        
+    
+        var popup_f3df376de45ac9b1ed8fdd80823f2d21 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5e86eab165f582ca71055b572d3f4f06 = $(`<div id="html_5e86eab165f582ca71055b572d3f4f06" style="width: 100.0%; height: 100.0%;">COLER-GOLDWATER SPECIALTY HOSPITAL & NURSING FACILITY - COLER HOSPITAL SITE</div>`)[0];
+                popup_f3df376de45ac9b1ed8fdd80823f2d21.setContent(html_5e86eab165f582ca71055b572d3f4f06);
+            
+        
+
+        marker_ecdb9eae036365ba1571ba422dd179fd.bindPopup(popup_f3df376de45ac9b1ed8fdd80823f2d21)
+        ;
+
+        
+    
+    
+            var marker_5c3068b588cbb3c4949f181029912b0a = L.marker(
+                [40.814123532751616, -73.93976651076436],
+                {}
+            ).addTo(map_a00b78ff40016379691d809cf131b37e);
+        
+    
+        var popup_0e92eb69f1279a08c233d3af59beab60 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a8c440467a59ec00c887a25f76f30789 = $(`<div id="html_a8c440467a59ec00c887a25f76f30789" style="width: 100.0%; height: 100.0%;">HARLEM HOSPITAL CENTER</div>`)[0];
+                popup_0e92eb69f1279a08c233d3af59beab60.setContent(html_a8c440467a59ec00c887a25f76f30789);
+            
+        
+
+        marker_5c3068b588cbb3c4949f181029912b0a.bindPopup(popup_0e92eb69f1279a08c233d3af59beab60)
+        ;
+
+        
+    
+    
+            var marker_716a15b05158b45a6815254b3c5ad608 = L.marker(
+                [40.80299712174222, -73.94112025542181],
+                {}
+            ).addTo(map_a00b78ff40016379691d809cf131b37e);
+        
+    
+        var popup_c8bb8ce5a4b25b54857871b927a65ccc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ff282f2f8971bdef8bbbba4b91c35150 = $(`<div id="html_ff282f2f8971bdef8bbbba4b91c35150" style="width: 100.0%; height: 100.0%;">HENRY J. CARTER SPECIALTY HOSPITAL</div>`)[0];
+                popup_c8bb8ce5a4b25b54857871b927a65ccc.setContent(html_ff282f2f8971bdef8bbbba4b91c35150);
+            
+        
+
+        marker_716a15b05158b45a6815254b3c5ad608.bindPopup(popup_c8bb8ce5a4b25b54857871b927a65ccc)
+        ;
+
+        
+    
+    
+            var marker_2eb19614c9d374a287502179310fdfbc = L.marker(
+                [40.765108666479435, -73.9527273412189],
+                {}
+            ).addTo(map_a00b78ff40016379691d809cf131b37e);
+        
+    
+        var popup_f098722be8bebdbcfe2b9c0cb1f82eba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1f372d4a2166fe37b6427035ce2ebb0b = $(`<div id="html_1f372d4a2166fe37b6427035ce2ebb0b" style="width: 100.0%; height: 100.0%;">HOSPITAL FOR SPECIAL SURGERY</div>`)[0];
+                popup_f098722be8bebdbcfe2b9c0cb1f82eba.setContent(html_1f372d4a2166fe37b6427035ce2ebb0b);
+            
+        
+
+        marker_2eb19614c9d374a287502179310fdfbc.bindPopup(popup_f098722be8bebdbcfe2b9c0cb1f82eba)
+        ;
+
+        
+    
+    
+            var marker_bfdbd7906533e59a82ab73ed6ada3c52 = L.marker(
+                [40.73771480651282, -74.00087325540062],
+                {}
+            ).addTo(map_a00b78ff40016379691d809cf131b37e);
+        
+    
+        var popup_bbadaba641df102ded5fc19b5c0a520d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_572c09d968df5b58b71dc5459aaa1df0 = $(`<div id="html_572c09d968df5b58b71dc5459aaa1df0" style="width: 100.0%; height: 100.0%;">LENOX HILL HEALTHPLEX</div>`)[0];
+                popup_bbadaba641df102ded5fc19b5c0a520d.setContent(html_572c09d968df5b58b71dc5459aaa1df0);
+            
+        
+
+        marker_bfdbd7906533e59a82ab73ed6ada3c52.bindPopup(popup_bbadaba641df102ded5fc19b5c0a520d)
+        ;
+
+        
+    
+    
+            var marker_584dc468a400b45c718d9705d83e93d0 = L.marker(
+                [40.77365334626779, -73.96085559969245],
+                {}
+            ).addTo(map_a00b78ff40016379691d809cf131b37e);
+        
+    
+        var popup_b965640f7a6b232a0388cf75345ccc0f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ba8336803a1167f4fb6472a017cdb24c = $(`<div id="html_ba8336803a1167f4fb6472a017cdb24c" style="width: 100.0%; height: 100.0%;">LENOX HILL HOSPITAL</div>`)[0];
+                popup_b965640f7a6b232a0388cf75345ccc0f.setContent(html_ba8336803a1167f4fb6472a017cdb24c);
+            
+        
+
+        marker_584dc468a400b45c718d9705d83e93d0.bindPopup(popup_b965640f7a6b232a0388cf75345ccc0f)
+        ;
+
+        
+    
+    
+            var marker_5254200da99e26bc7ec15fed7ebe4283 = L.marker(
+                [40.764374674631455, -73.95679987256894],
+                {}
+            ).addTo(map_a00b78ff40016379691d809cf131b37e);
+        
+    
+        var popup_08f2c9b5470e6db30faa6eb88267c8f4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_da277a46f2160fa26a98679207c75ba6 = $(`<div id="html_da277a46f2160fa26a98679207c75ba6" style="width: 100.0%; height: 100.0%;">MEMORIAL HOSPITAL FOR CANCER AND ALLIED DISEASES</div>`)[0];
+                popup_08f2c9b5470e6db30faa6eb88267c8f4.setContent(html_da277a46f2160fa26a98679207c75ba6);
+            
+        
+
+        marker_5254200da99e26bc7ec15fed7ebe4283.bindPopup(popup_08f2c9b5470e6db30faa6eb88267c8f4)
+        ;
+
+        
+    
+    
+            var marker_a7c78e9812d2047992569f1cd2e3ff54 = L.marker(
+                [40.78505397397865, -73.94496023523027],
+                {}
+            ).addTo(map_a00b78ff40016379691d809cf131b37e);
+        
+    
+        var popup_4f90d5e11271934a2a0d4beb2798cf91 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c7d2456a48aaae8e0d3f61028744b3cd = $(`<div id="html_c7d2456a48aaae8e0d3f61028744b3cd" style="width: 100.0%; height: 100.0%;">METROPOLITAN HOSPITAL CENTER</div>`)[0];
+                popup_4f90d5e11271934a2a0d4beb2798cf91.setContent(html_c7d2456a48aaae8e0d3f61028744b3cd);
+            
+        
+
+        marker_a7c78e9812d2047992569f1cd2e3ff54.bindPopup(popup_4f90d5e11271934a2a0d4beb2798cf91)
+        ;
+
+        
+    
+    
+            var marker_50c504e9d70d5af927d6c705859b6c30 = L.marker(
+                [40.73332734064887, -73.98234480428712],
+                {}
+            ).addTo(map_a00b78ff40016379691d809cf131b37e);
+        
+    
+        var popup_5af59ee1d4424e97da26ad9f0473f2da = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dfec77d207039f8716334db798f72201 = $(`<div id="html_dfec77d207039f8716334db798f72201" style="width: 100.0%; height: 100.0%;">MOUNT SINAI BETH ISRAEL</div>`)[0];
+                popup_5af59ee1d4424e97da26ad9f0473f2da.setContent(html_dfec77d207039f8716334db798f72201);
+            
+        
+
+        marker_50c504e9d70d5af927d6c705859b6c30.bindPopup(popup_5af59ee1d4424e97da26ad9f0473f2da)
+        ;
+
+        
+    
+    
+            var marker_813138427a9e7a51e05d184b9bdad3bb = L.marker(
+                [40.78987464729508, -73.95326589972156],
+                {}
+            ).addTo(map_a00b78ff40016379691d809cf131b37e);
+        
+    
+        var popup_a01ceb86275f888996640525ef90acb0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_38827eed87e679d9202f2e85e3d14dd0 = $(`<div id="html_38827eed87e679d9202f2e85e3d14dd0" style="width: 100.0%; height: 100.0%;">MOUNT SINAI HOSPITAL</div>`)[0];
+                popup_a01ceb86275f888996640525ef90acb0.setContent(html_38827eed87e679d9202f2e85e3d14dd0);
+            
+        
+
+        marker_813138427a9e7a51e05d184b9bdad3bb.bindPopup(popup_a01ceb86275f888996640525ef90acb0)
+        ;
+
+        
+    
+    
+            var marker_22d6394c78b1bd2afd46b1bc5cf2684c = L.marker(
+                [40.76969584616553, -73.98688765825308],
+                {}
+            ).addTo(map_a00b78ff40016379691d809cf131b37e);
+        
+    
+        var popup_44defdd35590bc3f5ac9d6aa7a59974e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fe7d961581289a4cc03c9ae48cab5fc9 = $(`<div id="html_fe7d961581289a4cc03c9ae48cab5fc9" style="width: 100.0%; height: 100.0%;">MOUNT SINAI ROOSEVELT</div>`)[0];
+                popup_44defdd35590bc3f5ac9d6aa7a59974e.setContent(html_fe7d961581289a4cc03c9ae48cab5fc9);
+            
+        
+
+        marker_22d6394c78b1bd2afd46b1bc5cf2684c.bindPopup(popup_44defdd35590bc3f5ac9d6aa7a59974e)
+        ;
+
+        
+    
+    
+            var marker_748a013d7f5c585c5e2a73e4f62fc559 = L.marker(
+                [40.80569555361154, -73.96147972367363],
+                {}
+            ).addTo(map_a00b78ff40016379691d809cf131b37e);
+        
+    
+        var popup_80b6ee0eb7afbe91537e36954abc34da = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_76aaaa52e58ac664e22799afeae97aed = $(`<div id="html_76aaaa52e58ac664e22799afeae97aed" style="width: 100.0%; height: 100.0%;">MOUNT SINAI ST. LUKE'S</div>`)[0];
+                popup_80b6ee0eb7afbe91537e36954abc34da.setContent(html_76aaaa52e58ac664e22799afeae97aed);
+            
+        
+
+        marker_748a013d7f5c585c5e2a73e4f62fc559.bindPopup(popup_80b6ee0eb7afbe91537e36954abc34da)
+        ;
+
+        
+    
+    
+            var marker_844c8d86f768c0ef4e3ffed8f00d130e = L.marker(
+                [40.73188392497343, -73.98461112231631],
+                {}
+            ).addTo(map_a00b78ff40016379691d809cf131b37e);
+        
+    
+        var popup_e972e71fd09d87e130b7167e6946c0bb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_49bdb63d25bc9272aca300190b16df3f = $(`<div id="html_49bdb63d25bc9272aca300190b16df3f" style="width: 100.0%; height: 100.0%;">NEW YORK EYE AND EAR INFIRMARY OF MOUNT SINAI</div>`)[0];
+                popup_e972e71fd09d87e130b7167e6946c0bb.setContent(html_49bdb63d25bc9272aca300190b16df3f);
+            
+        
+
+        marker_844c8d86f768c0ef4e3ffed8f00d130e.bindPopup(popup_e972e71fd09d87e130b7167e6946c0bb)
+        ;
+
+        
+    
+    
+            var marker_8fc24e9af6d6bdee23fcb1efd28fa807 = L.marker(
+                [40.873227421595, -73.91294845848223],
+                {}
+            ).addTo(map_a00b78ff40016379691d809cf131b37e);
+        
+    
+        var popup_b2894c48243bfdb884b033e321367299 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3d8e1d20e5db782d1c3eed50dceff1f7 = $(`<div id="html_3d8e1d20e5db782d1c3eed50dceff1f7" style="width: 100.0%; height: 100.0%;">NEW YORK PRESBYTERIAN HOSPITAL - ALLEN HOSPITAL</div>`)[0];
+                popup_b2894c48243bfdb884b033e321367299.setContent(html_3d8e1d20e5db782d1c3eed50dceff1f7);
+            
+        
+
+        marker_8fc24e9af6d6bdee23fcb1efd28fa807.bindPopup(popup_b2894c48243bfdb884b033e321367299)
+        ;
+
+        
+    
+    
+            var marker_400b0ae7bf18b07f10317bddded57033 = L.marker(
+                [40.840696082969366, -73.94163622952348],
+                {}
+            ).addTo(map_a00b78ff40016379691d809cf131b37e);
+        
+    
+        var popup_f86c830f82900fb72928d6746bf4135a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6f3fbe133786ef5510b3385d6113c9e4 = $(`<div id="html_6f3fbe133786ef5510b3385d6113c9e4" style="width: 100.0%; height: 100.0%;">NEW YORK PRESBYTERIAN HOSPITAL - COLUMBIA PRESBYTERIAN CENTER</div>`)[0];
+                popup_f86c830f82900fb72928d6746bf4135a.setContent(html_6f3fbe133786ef5510b3385d6113c9e4);
+            
+        
+
+        marker_400b0ae7bf18b07f10317bddded57033.bindPopup(popup_f86c830f82900fb72928d6746bf4135a)
+        ;
+
+        
+    
+    
+            var marker_d65f40683631572df40ba813fd962d15 = L.marker(
+                [40.764453245236844, -73.9541429039059],
+                {}
+            ).addTo(map_a00b78ff40016379691d809cf131b37e);
+        
+    
+        var popup_1a4ed8dec4db815446382635c436d270 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_09d527c16ecf0f17d126a943257a669f = $(`<div id="html_09d527c16ecf0f17d126a943257a669f" style="width: 100.0%; height: 100.0%;">NEW YORK PRESBYTERIAN HOSPITAL - NEW YORK WEILL CORNELL CENTER</div>`)[0];
+                popup_1a4ed8dec4db815446382635c436d270.setContent(html_09d527c16ecf0f17d126a943257a669f);
+            
+        
+
+        marker_d65f40683631572df40ba813fd962d15.bindPopup(popup_1a4ed8dec4db815446382635c436d270)
+        ;
+
+        
+    
+    
+            var marker_5797317f0a7e6a3d902ddd247a961737 = L.marker(
+                [40.710357701836905, -74.00501014024093],
+                {}
+            ).addTo(map_a00b78ff40016379691d809cf131b37e);
+        
+    
+        var popup_b5d75291e943e0dc2a276035e5a0c280 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4aaca4c4d393f6f0a87510f14e816046 = $(`<div id="html_4aaca4c4d393f6f0a87510f14e816046" style="width: 100.0%; height: 100.0%;">NEW YORK-PRESBYTERIAN/LOWER MANHATTAN HOSPITAL</div>`)[0];
+                popup_b5d75291e943e0dc2a276035e5a0c280.setContent(html_4aaca4c4d393f6f0a87510f14e816046);
+            
+        
+
+        marker_5797317f0a7e6a3d902ddd247a961737.bindPopup(popup_b5d75291e943e0dc2a276035e5a0c280)
+        ;
+
+        
+    
+    
+            var marker_192a86bcd70ad98575ee4c5d5d1ea072 = L.marker(
+                [40.73439514871634, -73.98300123444983],
+                {}
+            ).addTo(map_a00b78ff40016379691d809cf131b37e);
+        
+    
+        var popup_795191c933b6235707dfa4ba5314916a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9e64dc04889cc66c6eeebeb831da4c24 = $(`<div id="html_9e64dc04889cc66c6eeebeb831da4c24" style="width: 100.0%; height: 100.0%;">NYU HOSPITAL FOR JOINT DISEASES</div>`)[0];
+                popup_795191c933b6235707dfa4ba5314916a.setContent(html_9e64dc04889cc66c6eeebeb831da4c24);
+            
+        
+
+        marker_192a86bcd70ad98575ee4c5d5d1ea072.bindPopup(popup_795191c933b6235707dfa4ba5314916a)
+        ;
+
+        
+    
+    
+            var marker_7306ad142cd2417c9e634112957c00e8 = L.marker(
+                [40.742139177884276, -73.97408207907505],
+                {}
+            ).addTo(map_a00b78ff40016379691d809cf131b37e);
+        
+    
+        var popup_57745135f9cc2002931793f3b896979f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1c8d05d1b8095bda5461883e998f3246 = $(`<div id="html_1c8d05d1b8095bda5461883e998f3246" style="width: 100.0%; height: 100.0%;">NYU HOSPITALS CENTER</div>`)[0];
+                popup_57745135f9cc2002931793f3b896979f.setContent(html_1c8d05d1b8095bda5461883e998f3246);
+            
+        
+
+        marker_7306ad142cd2417c9e634112957c00e8.bindPopup(popup_57745135f9cc2002931793f3b896979f)
+        ;
+
+        
+    
+    
+            var marker_e424e037fde197af98bb40086d0470f9 = L.marker(
+                [40.76254627225295, -73.95573615593123],
+                {}
+            ).addTo(map_a00b78ff40016379691d809cf131b37e);
+        
+    
+        var popup_af583dc859ed49a6ecb0301d99a25b56 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fd4e984f2346712cb4d010c70a780778 = $(`<div id="html_fd4e984f2346712cb4d010c70a780778" style="width: 100.0%; height: 100.0%;">ROCKEFELLER UNIVERSITY HOSPITAL</div>`)[0];
+                popup_af583dc859ed49a6ecb0301d99a25b56.setContent(html_fd4e984f2346712cb4d010c70a780778);
+            
+        
+
+        marker_e424e037fde197af98bb40086d0470f9.bindPopup(popup_af583dc859ed49a6ecb0301d99a25b56)
+        ;
+
+        
+    
+    
+            var marker_e201f50fa6745c3454fb43e7474f5d33 = L.marker(
+                [40.74512101423679, -73.88564131742412],
+                {}
+            ).addTo(map_a00b78ff40016379691d809cf131b37e);
+        
+    
+        var popup_91121d476f9bca63e0f2756109aa2adb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2d49286b6d11bd652b69fcb20c90907f = $(`<div id="html_2d49286b6d11bd652b69fcb20c90907f" style="width: 100.0%; height: 100.0%;">ELMHURST HOSPITAL CENTER</div>`)[0];
+                popup_91121d476f9bca63e0f2756109aa2adb.setContent(html_2d49286b6d11bd652b69fcb20c90907f);
+            
+        
+
+        marker_e201f50fa6745c3454fb43e7474f5d33.bindPopup(popup_91121d476f9bca63e0f2756109aa2adb)
+        ;
+
+        
+    
+    
+            var marker_fdde5b3f6a47c5ec61748a8313f2ca89 = L.marker(
+                [40.75561323005755, -73.81687376203057],
+                {}
+            ).addTo(map_a00b78ff40016379691d809cf131b37e);
+        
+    
+        var popup_036db3c6065265331559e7f7c9df9ca3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4eae0f104a21cb9e6fcced3c52f1da77 = $(`<div id="html_4eae0f104a21cb9e6fcced3c52f1da77" style="width: 100.0%; height: 100.0%;">FLUSHING HOSPITAL MEDICAL CENTER</div>`)[0];
+                popup_036db3c6065265331559e7f7c9df9ca3.setContent(html_4eae0f104a21cb9e6fcced3c52f1da77);
+            
+        
+
+        marker_fdde5b3f6a47c5ec61748a8313f2ca89.bindPopup(popup_036db3c6065265331559e7f7c9df9ca3)
+        ;
+
+        
+    
+    
+            var marker_d5ca9f04f7c55f9da93aa7ff94a21934 = L.marker(
+                [40.72903352450227, -73.85154781041423],
+                {}
+            ).addTo(map_a00b78ff40016379691d809cf131b37e);
+        
+    
+        var popup_6b06fea28afbdc5e1d3a6ef47356e5e5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eff252a0c9b8da75f7eec5f33d2eafb7 = $(`<div id="html_eff252a0c9b8da75f7eec5f33d2eafb7" style="width: 100.0%; height: 100.0%;">FOREST HILLS HOSPITAL</div>`)[0];
+                popup_6b06fea28afbdc5e1d3a6ef47356e5e5.setContent(html_eff252a0c9b8da75f7eec5f33d2eafb7);
+            
+        
+
+        marker_d5ca9f04f7c55f9da93aa7ff94a21934.bindPopup(popup_6b06fea28afbdc5e1d3a6ef47356e5e5)
+        ;
+
+        
+    
+    
+            var marker_326918e056c5fcd9ee2776f6bb2c6d63 = L.marker(
+                [40.7005057752842, -73.81632908384934],
+                {}
+            ).addTo(map_a00b78ff40016379691d809cf131b37e);
+        
+    
+        var popup_500f96b666143ea5db7ce31ffae4adeb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4a6d0c493c8eceaa7acf6f169d2d7969 = $(`<div id="html_4a6d0c493c8eceaa7acf6f169d2d7969" style="width: 100.0%; height: 100.0%;">JAMAICA HOSPITAL MEDICAL CENTER</div>`)[0];
+                popup_500f96b666143ea5db7ce31ffae4adeb.setContent(html_4a6d0c493c8eceaa7acf6f169d2d7969);
+            
+        
+
+        marker_326918e056c5fcd9ee2776f6bb2c6d63.bindPopup(popup_500f96b666143ea5db7ce31ffae4adeb)
+        ;
+
+        
+    
+    
+            var marker_c60d8d9518ad2886511d800a87b4eb42 = L.marker(
+                [40.75292723318126, -73.70931586733064],
+                {}
+            ).addTo(map_a00b78ff40016379691d809cf131b37e);
+        
+    
+        var popup_089ffdf51491f145d886beb8688230d1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4990874c24efd8b6d7974177af0d1239 = $(`<div id="html_4990874c24efd8b6d7974177af0d1239" style="width: 100.0%; height: 100.0%;">LONG ISLAND JEWISH MEDICAL CENTER</div>`)[0];
+                popup_089ffdf51491f145d886beb8688230d1.setContent(html_4990874c24efd8b6d7974177af0d1239);
+            
+        
+
+        marker_c60d8d9518ad2886511d800a87b4eb42.bindPopup(popup_089ffdf51491f145d886beb8688230d1)
+        ;
+
+        
+    
+    
+            var marker_b1c2748009ac608eedf93d5d9e1f76c8 = L.marker(
+                [40.76805542814507, -73.92484415217665],
+                {}
+            ).addTo(map_a00b78ff40016379691d809cf131b37e);
+        
+    
+        var popup_a3d76cd756c792f399a40011e402f738 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f39eb7a391122959288d93d801b01769 = $(`<div id="html_f39eb7a391122959288d93d801b01769" style="width: 100.0%; height: 100.0%;">MOUNT SINAI HOSPITAL - MOUNT SINAI HOSPITAL OF QUEENS</div>`)[0];
+                popup_a3d76cd756c792f399a40011e402f738.setContent(html_f39eb7a391122959288d93d801b01769);
+            
+        
+
+        marker_b1c2748009ac608eedf93d5d9e1f76c8.bindPopup(popup_a3d76cd756c792f399a40011e402f738)
+        ;
+
+        
+    
+    
+            var marker_6bc0ee97dea2666d9b9c1fc5fa9e753e = L.marker(
+                [40.747180508981685, -73.8251651922932],
+                {}
+            ).addTo(map_a00b78ff40016379691d809cf131b37e);
+        
+    
+        var popup_d5fd27fd4df773853f5fa324f7631d31 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_88c8054a69ea2df9a9500a5a9264bdaf = $(`<div id="html_88c8054a69ea2df9a9500a5a9264bdaf" style="width: 100.0%; height: 100.0%;">NEW YORK HOSPITAL MEDICAL CENTER OF QUEENS</div>`)[0];
+                popup_d5fd27fd4df773853f5fa324f7631d31.setContent(html_88c8054a69ea2df9a9500a5a9264bdaf);
+            
+        
+
+        marker_6bc0ee97dea2666d9b9c1fc5fa9e753e.bindPopup(popup_d5fd27fd4df773853f5fa324f7631d31)
+        ;
+
+        
+    
+    
+            var marker_43b55cc94c8cc197f4f0b5e6862c3da0 = L.marker(
+                [40.7177364216317, -73.80567939252272],
+                {}
+            ).addTo(map_a00b78ff40016379691d809cf131b37e);
+        
+    
+        var popup_dcc29026d8e5e90c99e9b33b80833e40 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_45f97cdcf3b7722b95843ce0b91fbbb7 = $(`<div id="html_45f97cdcf3b7722b95843ce0b91fbbb7" style="width: 100.0%; height: 100.0%;">QUEENS HOSPITAL CENTER</div>`)[0];
+                popup_dcc29026d8e5e90c99e9b33b80833e40.setContent(html_45f97cdcf3b7722b95843ce0b91fbbb7);
+            
+        
+
+        marker_43b55cc94c8cc197f4f0b5e6862c3da0.bindPopup(popup_dcc29026d8e5e90c99e9b33b80833e40)
+        ;
+
+        
+    
+    
+            var marker_775107cd342dc9d7184129a73cc0cc31 = L.marker(
+                [40.59865531058224, -73.75348752144086],
+                {}
+            ).addTo(map_a00b78ff40016379691d809cf131b37e);
+        
+    
+        var popup_a7474036271fdaf45c1d83bdfe149c86 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_26b5183de9ce22020019aff611b78c7c = $(`<div id="html_26b5183de9ce22020019aff611b78c7c" style="width: 100.0%; height: 100.0%;">ST JOHNS EPISCOPAL HOSPITAL SO SHORE</div>`)[0];
+                popup_a7474036271fdaf45c1d83bdfe149c86.setContent(html_26b5183de9ce22020019aff611b78c7c);
+            
+        
+
+        marker_775107cd342dc9d7184129a73cc0cc31.bindPopup(popup_a7474036271fdaf45c1d83bdfe149c86)
+        ;
+
+        
+    
+    
+            var marker_f705f98f56a95158d0fa310aadcafe12 = L.marker(
+                [40.635876540798016, -74.10556032526767],
+                {}
+            ).addTo(map_a00b78ff40016379691d809cf131b37e);
+        
+    
+        var popup_36a8b0ee8f24c35399913ecbb207a20c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_64fed02cf820d391380c0af08afc780f = $(`<div id="html_64fed02cf820d391380c0af08afc780f" style="width: 100.0%; height: 100.0%;">RICHMOND UNIVERSITY MEDICAL CENTER</div>`)[0];
+                popup_36a8b0ee8f24c35399913ecbb207a20c.setContent(html_64fed02cf820d391380c0af08afc780f);
+            
+        
+
+        marker_f705f98f56a95158d0fa310aadcafe12.bindPopup(popup_36a8b0ee8f24c35399913ecbb207a20c)
+        ;
+
+        
+    
+    
+            var marker_48fbb0961e0e4ea274332979a2be18bf = L.marker(
+                [40.62257417575695, -74.07561522684486],
+                {}
+            ).addTo(map_a00b78ff40016379691d809cf131b37e);
+        
+    
+        var popup_eb57287c9fbb163711490bb398e1ca90 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_16cb42bcb299f73ed1c3d18f2ebcca7a = $(`<div id="html_16cb42bcb299f73ed1c3d18f2ebcca7a" style="width: 100.0%; height: 100.0%;">RUMC-BAYLEY SETON</div>`)[0];
+                popup_eb57287c9fbb163711490bb398e1ca90.setContent(html_16cb42bcb299f73ed1c3d18f2ebcca7a);
+            
+        
+
+        marker_48fbb0961e0e4ea274332979a2be18bf.bindPopup(popup_eb57287c9fbb163711490bb398e1ca90)
+        ;
+
+        
+    
+    
+            var marker_352270a8d6b3b2267ae8b2d07408f727 = L.marker(
+                [40.60284640058876, -74.09195676300882],
+                {}
+            ).addTo(map_a00b78ff40016379691d809cf131b37e);
+        
+    
+        var popup_adf59da494a728426c4f018746e3112d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bf7a981691904acfc02dc96a6136ac3d = $(`<div id="html_bf7a981691904acfc02dc96a6136ac3d" style="width: 100.0%; height: 100.0%;">STATEN ISLAND UNIV HOSP-CONCORD DIV</div>`)[0];
+                popup_adf59da494a728426c4f018746e3112d.setContent(html_bf7a981691904acfc02dc96a6136ac3d);
+            
+        
+
+        marker_352270a8d6b3b2267ae8b2d07408f727.bindPopup(popup_adf59da494a728426c4f018746e3112d)
+        ;
+
+        
+    
+    
+            var marker_7f9ff50fe69f106b3de5a7e98e0569e7 = L.marker(
+                [40.58451612059963, -74.08549793485295],
+                {}
+            ).addTo(map_a00b78ff40016379691d809cf131b37e);
+        
+    
+        var popup_a01dca29dbdeab681479e0097276f3b5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c64ef7724c92ae56d5a57990a6b65557 = $(`<div id="html_c64ef7724c92ae56d5a57990a6b65557" style="width: 100.0%; height: 100.0%;">STATEN ISLAND UNIVERSITY HOSP-NORTH</div>`)[0];
+                popup_a01dca29dbdeab681479e0097276f3b5.setContent(html_c64ef7724c92ae56d5a57990a6b65557);
+            
+        
+
+        marker_7f9ff50fe69f106b3de5a7e98e0569e7.bindPopup(popup_a01dca29dbdeab681479e0097276f3b5)
+        ;
+
+        
+    
+    
+            var marker_785704c57ae7ebb1dda58d0a61b2e161 = L.marker(
+                [40.516978800451795, -74.19614316989768],
+                {}
+            ).addTo(map_a00b78ff40016379691d809cf131b37e);
+        
+    
+        var popup_f77a60cdb7a1f850dc222a839defce59 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3107dd7e20508b140c9e427aba3ebc6f = $(`<div id="html_3107dd7e20508b140c9e427aba3ebc6f" style="width: 100.0%; height: 100.0%;">STATEN ISLAND UNIVERSITY HOSP-SOUTH</div>`)[0];
+                popup_f77a60cdb7a1f850dc222a839defce59.setContent(html_3107dd7e20508b140c9e427aba3ebc6f);
+            
+        
+
+        marker_785704c57ae7ebb1dda58d0a61b2e161.bindPopup(popup_f77a60cdb7a1f850dc222a839defce59)
+        ;
+
+        
+    
+</script>
+</html>
